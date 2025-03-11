@@ -1,0 +1,46 @@
+body {
+    background-color: #ffff;
+
+    h1{
+        text-align: center
+    }
+
+    .img_logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .table_fakultas{
+        background-color: rgb(233, 255, 35);
+    }
+    .button_fakultas{
+        background-color: aqua;
+    }
+
+    .daftar_kampus{
+        ul{
+            width: 200px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        a:link, a:visited, a:active{
+            padding-left: 15px;
+            text-decoration: none;
+        }
+        a{
+            padding: 5px 0px 5px 15px;
+            display: block;
+            background: #087777 no-repeat left center;
+            margin: 0px 0px 1px;
+            color: #ffff;
+        }
+        a:hover{
+            background: #002c2e no-repeat left center;
+            color: #ffff;
+        }
+    }
+    .input_nama{
+        
+    }
+}
